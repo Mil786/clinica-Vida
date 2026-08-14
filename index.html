@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Clínica Vida+ | Saúde, cuidado e confiança</title>
+
+  <meta
+    name="description"
+    content="Clínica Vida+ — atendimento médico multidisciplinar com estrutura moderna, acolhimento e cuidado personalizado."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =========================
+       HEADER
+  ========================== -->
+
+  <header class="site-header" id="topo">
+
+    <div class="container header-inner">
+
+      <a class="brand" href="#topo" aria-label="Clínica Vida+">
+
+        <span class="brand-mark">
+          V<span>+</span>
+        </span>
+
+        <span class="brand-text">
+          <strong>Vida</strong>
+          <small>CLÍNICA MÉDICA</small>
+        </span>
+
+      </a>
+
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+
+        <a href="#sobre">Sobre</a>
+        <a href="#especialidades">Especialidades</a>
+        <a href="#profissionais">Equipe</a>
+        <a href="#estrutura">Estrutura</a>
+        <a href="#horarios">Horários</a>
+        <a href="#localizacao">Localização</a>
+        <a href="#contato">Contato</a>
+
+      </nav>
+
+
+      <div class="header-actions">
+
+        <a
+          class="header-whatsapp"
+          data-whatsapp
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          WhatsApp
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          type="button"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="nav"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <main>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section class="hero">
+
+      <div class="hero-media">
+
+        <img
+          src="images/hero-clinica.jpg"
+          alt="Ambiente moderno e acolhedor da Clínica Vida+"
+          loading="eager"
+        >
+
+      </div>
+
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content">
+
+        <p class="eyebrow">
+          Clínica médica multidisciplinar
+        </p>
+
+        <h1>
+          Cuidado que acolhe.
+          <br>
+          <em>Saúde que acompanha.</em>
+        </h1>
+
+        <p class="hero-text">
+          Um espaço pensado para oferecer atendimento de excelência,
+          escuta atenta e acompanhamento próximo em todas as fases da vida.
+        </p>
+
+        <div class="hero-actions">
+
+          <a
+            class="btn btn-primary"
+            data-whatsapp
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Agendar pelo WhatsApp
+          </a>
+
+          <a
+            class="btn btn-light"
+            href="#especialidades"
+          >
+            Conheça nossas especialidades
+          </a>
+
+        </div>
+
+        <div class="hero-trust">
+
+          <span>Atendimento humanizado</span>
+          <span>Equipe especializada</span>
+          <span>Estrutura moderna</span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         SOBRE
+    ========================== -->
+
+    <section class="intro section" id="sobre">
+
+      <div class="container two-col">
+
+        <div>
+
+          <p class="eyebrow">
+            Sobre a clínica
+          </p>
+
+          <h2>
+            Medicina com tempo para ouvir você.
+          </h2>
+
+        </div>
+
+        <div class="intro-copy">
+
+          <p>
+            A <strong>Clínica Vida+</strong> reúne diferentes especialidades
+            em um ambiente confortável, moderno e preparado para proporcionar
+            uma experiência de cuidado mais tranquila.
+          </p>
+
+          <p>
+            Nosso propósito é unir excelência profissional e atendimento
+            próximo, acompanhando cada paciente com atenção e responsabilidade.
+          </p>
+
+          <div class="stats">
+
+            <div>
+              <strong>8</strong>
+              <span>especialidades</span>
+            </div>
+
+            <div>
+              <strong>6</strong>
+              <span>dias de atendimento</span>
+            </div>
+
+            <div>
+              <strong>100%</strong>
+              <span>cuidado individualizado</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         ESPECIALIDADES
+    ========================== -->
+
+    <section class="section section-soft" id="especialidades">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <p class="eyebrow">
+            Especialidades
+          </p>
+
+          <h2>
+            Cuidado completo em um só lugar.
+          </h2>
+
+          <p>
+            Profissionais preparados para diferentes necessidades,
+            com uma abordagem integrada e personalizada.
+          </p>
+
+        </div>
+
+        <div
+          class="cards-grid"
+          id="especialidadesGrid"
+        ></div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         BANNER ESTRUTURA
+    ========================== -->
+
+    <section class="photo-banner">
+
+      <img
+        src="images/clinica-estrutura.jpg"
+        alt="Estrutura interna da Clínica Vida+"
+        loading="lazy"
+      >
+
+      <div class="photo-banner-overlay"></div>
+
+      <div class="container photo-banner-content">
+
+        <p class="eyebrow light">
+          Um ambiente pensado para você
+        </p>
+
+        <h2>
+          Conforto, privacidade e uma experiência mais tranquila.
+        </h2>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         PROFISSIONAIS / EQUIPE
+    ========================== -->
+
+    <section class="section" id="profissionais">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <p class="eyebrow">
+            Nossa equipe
+          </p>
+
+          <h2>
+            Profissionais que cuidam com propósito.
+          </h2>
+
+          <p>
+            Conheça alguns dos especialistas da Clínica Vida+.
+          </p>
+
+        </div>
+
+        <div
+          class="doctors-grid"
+          id="doctorGrid"
+        ></div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         ESTRUTURA
+    ========================== -->
+
+    <section class="section section-soft" id="estrutura">
+
+      <div class="container">
+
+        <div class="section-heading center">
+
+          <p class="eyebrow">
+            Estrutura
+          </p>
+
+          <h2>
+            Detalhes que fazem diferença.
+          </h2>
+
+        </div>
+
+        <div
+          class="features-grid"
+          id="estruturaGrid"
+        ></div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         HORÁRIOS
+    ========================== -->
+
+    <section class="section" id="horarios">
+
+      <div class="container two-col schedule-layout">
+
+        <div>
+
+          <p class="eyebrow">
+            Horários
+          </p>
+
+          <h2>
+            Atendimento pensado para caber na sua rotina.
+          </h2>
+
+          <p>
+            Consulte nossos horários e fale com a equipe para confirmar
+            a disponibilidade da especialidade desejada.
+          </p>
+
+          <a
+            class="text-link"
+            data-whatsapp
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Falar com a recepção →
+          </a>
+
+        </div>
+
+        <div class="hours-card">
+
+          <div class="hours-row" data-day="1">
+            <span>Segunda-feira</span>
+            <strong>07h – 19h</strong>
+          </div>
+
+          <div class="hours-row" data-day="2">
+            <span>Terça-feira</span>
+            <strong>07h – 19h</strong>
+          </div>
+
+          <div class="hours-row" data-day="3">
+            <span>Quarta-feira</span>
+            <strong>07h – 19h</strong>
+          </div>
+
+          <div class="hours-row" data-day="4">
+            <span>Quinta-feira</span>
+            <strong>07h – 19h</strong>
+          </div>
+
+          <div class="hours-row" data-day="5">
+            <span>Sexta-feira</span>
+            <strong>07h – 19h</strong>
+          </div>
+
+          <div class="hours-row" data-day="6">
+            <span>Sábado</span>
+            <strong>08h – 13h</strong>
+          </div>
+
+          <div class="hours-row" data-day="0">
+            <span>Domingo</span>
+            <strong>Fechado</strong>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         LOCALIZAÇÃO
+    ========================== -->
+
+    <section class="section section-soft" id="localizacao">
+
+      <div class="container two-col location-layout">
+
+        <div>
+
+          <p class="eyebrow">
+            Localização
+          </p>
+
+          <h2>
+            Fácil de chegar. Fácil de voltar.
+          </h2>
+
+          <address>
+            Rua das Flores, 250
+            <br>
+            São Paulo – SP
+          </address>
+
+          <ul class="location-list">
+
+            <li>
+              Estacionamento conveniado próximo à entrada
+            </li>
+
+            <li>
+              Acesso facilitado para pessoas com mobilidade reduzida
+            </li>
+
+            <li>
+              A poucos minutos de linhas de ônibus e metrô
+            </li>
+
+          </ul>
+
+          <a
+            class="btn btn-primary"
+            href="https://www.google.com/maps/search/?api=1&query=Rua+das+Flores+250+S%C3%A3o+Paulo+SP"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver no mapa
+          </a>
+
+        </div>
+
+        <div class="map-wrap">
+
+          <iframe
+            title="Mapa da região da Clínica Vida+"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-46.6533%2C-23.5605%2C-46.6133%2C-23.5405&layer=mapnik&marker=-23.5505%2C-46.6333"
+            loading="lazy"
+          ></iframe>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTATO
+    ========================== -->
+
+    <section class="contact-cta" id="contato">
+
+      <img
+        src="images/contato-clinica.jpg"
+        alt="Recepção elegante da Clínica Vida+"
+        loading="lazy"
+      >
+
+      <div class="contact-overlay"></div>
+
+      <div class="container contact-content">
+
+        <p class="eyebrow light">
+          Entre em contato
+        </p>
+
+        <h2>
+          Seu cuidado pode começar com uma conversa.
+        </h2>
+
+        <p>
+          Escolha o canal que preferir e fale diretamente
+          com nossa equipe.
+        </p>
+
+        <div class="contact-buttons">
+
+          <a
+            class="btn btn-primary"
+            data-whatsapp
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            WhatsApp
+          </a>
+
+          <a
+            class="btn btn-outline-light"
+            data-email
+            href="#"
+          >
+            E-mail
+          </a>
+
+          <a
+            class="btn btn-outline-light"
+            data-instagram
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================
+       WHATSAPP FLUTUANTE
+  ========================== -->
+
+  <a
+    class="whatsapp-float"
+    data-whatsapp
+    href="#"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Falar com a Clínica Vida+ pelo WhatsApp"
+    title="Fale conosco pelo WhatsApp"
+  >
+    <svg
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+    >
+      <path d="M20.5 3.5A11.9 11.9 0 0 0 12.05 0C5.45 0 .08 5.37.08 11.98c0 2.11.55 4.17 1.6 5.99L0 24l6.18-1.62a11.93 11.93 0 0 0 5.87 1.54h.01c6.6 0 11.96-5.37 11.96-11.97 0-3.2-1.24-6.2-3.52-8.45ZM12.06 21.95h-.01a9.94 9.94 0 0 1-5.07-1.39l-.36-.21-3.67.96.98-3.58-.23-.37a9.94 9.94 0 1 1 8.36 4.59Zm5.45-7.45c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.47-.89-.79-1.49-1.77-1.67-2.07-.17-.3-.02-.46.13-.61.14-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.21 5.09 4.5.71.31 1.27.49 1.7.63.72.23 1.37.2 1.89.12.58-.09 1.76-.72 2.01-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z"/>
+    </svg>
+  </a>
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer class="site-footer">
+
+    <div class="container footer-top">
+
+      <a class="brand brand-footer" href="#topo">
+
+        <span class="brand-mark">
+          V<span>+</span>
+        </span>
+
+        <span class="brand-text">
+          <strong>Vida</strong>
+          <small>CLÍNICA MÉDICA</small>
+        </span>
+
+      </a>
+
+      <nav
+        class="footer-nav"
+        aria-label="Navegação do rodapé"
+      >
+
+        <a href="#sobre">Sobre</a>
+        <a href="#especialidades">Especialidades</a>
+        <a href="#profissionais">Equipe</a>
+        <a href="#estrutura">Estrutura</a>
+        <a href="#contato">Contato</a>
+
+      </nav>
+
+      <div class="footer-contact">
+
+        <a
+          data-whatsapp
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          WhatsApp
+        </a>
+
+        <a
+          data-email
+          href="#"
+        >
+          E-mail
+        </a>
+
+        <a
+          data-instagram
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instagram
+        </a>
+
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+
+      <span>
+        © <span id="year"></span>
+        Clínica Vida+. Todos os direitos reservados.
+      </span>
+
+      <span>
+        Site demonstrativo — substitua os dados de contato antes da publicação.
+      </span>
+
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
