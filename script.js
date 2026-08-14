@@ -19,7 +19,7 @@ const CONFIG = {
     "contato@clinicavidamais.com.br",
 
   instagram:
-    "https://www.instagram.com/clinicavidamais"
+    "https://www.instagram.com/teste"
 
 };
 
